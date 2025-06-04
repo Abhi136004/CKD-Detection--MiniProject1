@@ -1,16 +1,16 @@
 
-#🚑 Chronic Kidney Disease (CKD) Detection Using Recurrent Neural Network (RNN)
-##📌 Project Overview
+# 🚑 Chronic Kidney Disease (CKD) Detection Using Recurrent Neural Network (RNN)
+## 📌 Project Overview
 Chronic Kidney Disease (CKD) is a significant health concern linked with conditions such as aging, hypertension, and diabetes. Early detection is vital to reduce life-threatening complications. This project leverages Recurrent Neural Network (RNN) models to predict the presence of CKD using various features such as:
 
-##Demographic Information
+## Demographic Information
 
 Clinical & Laboratory Tests
 Urinalysis Results
 Medical Conditions (e.g., Proteinuria, Albuminuria)
 The dataset contains 680 instances and has been sourced from Kaggle. The goal is to apply deep learning to classify the presence or absence of CKD based on patient data.
 
-##📊 Dataset Information
+## 📊 Dataset Information
 
 📁 Source: Kaggle - Chronic Kidney Disease Dataset
 📌 Size: 680 patient records
