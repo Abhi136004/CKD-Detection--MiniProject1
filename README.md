@@ -12,27 +12,22 @@ The dataset contains 680 instances and has been sourced from Kaggle. The goal is
 
 ## 📊 Dataset Information
 
-📁 Source: Kaggle - Chronic Kidney Disease Dataset
-📌 Size: 680 patient records
-📌 Features:
+->  Source: Kaggle - Chronic Kidney Disease Dataset
+->  Size: 680 patient records
 
-Demographics
+## Features:
 
-Clinical values (blood pressure, specific gravity, etc.)
+-> Demographics
+-> Clinical values (blood pressure, specific gravity, etc.)
+-> Urinalysis
+-> Presence of comorbid conditions (e.g., diabetes, hypertension)
+-> Target: classification (CKD or not)
 
-Urinalysis
-
-Presence of comorbid conditions (e.g., diabetes, hypertension)
-
-Target: classification (CKD or not)
-
-#🧠 Recurrent Neural Network (RNN)
+# 🧠 Recurrent Neural Network (RNN)
 RNN is designed for sequential data and time-series problems. It processes input one step at a time while maintaining a hidden state that captures the context from previous steps, making it suitable for tasks with temporal dependencies.
 
-##RNN Architecture:
-Input Layer: Accepts patient features at each time step.
-
-Hidden Layer: Maintains context using hidden states across time steps.
-
-Output Layer: Provides a binary classification (CKD: Yes/No).
+## RNN Architecture:
+-> Input Layer: Accepts patient features at each time step.
+-> Hidden Layer: Maintains context using hidden states across time steps.
+-> Output Layer: Provides a binary classification (CKD: Yes/No).
 
